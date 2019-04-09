@@ -13,6 +13,7 @@ import ec.edu.ups.interfaces.Acciones;
  */
 public class Perro extends Animal  implements Acciones{
 
+    //constructor
     public Perro(String nombre, int edad, double peso, String sexo) {
         super(nombre, edad, peso, sexo);
     }
