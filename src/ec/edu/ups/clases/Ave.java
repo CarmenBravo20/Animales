@@ -13,5 +13,29 @@ import ec.edu.ups.interfaces.Acciones;
  */
 public class Ave extends Animal implements Acciones {
 
+  //Declaracion de los metodos
+    @Override
+    public void comer() {
+        
+    }
+
+    @Override
+    public void dormir() {
+    }
+
+    @Override
+    public void mover() {
+        
+    }
+
+    @Override
+    public void jugar() {
+        
+    }
+
+    @Override
+    public void reproducirse() {
+        
+    }
 
 }
