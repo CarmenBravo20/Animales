@@ -18,5 +18,27 @@ public class Principal {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+    
+    
+        Perro perro = new Perro("Scay", 3, 25, "Macho");
+        Perro perro1 = new Perro("Estrella", 4, 28, "Hembra");
+
+        //Imprimir los metodos 
+        perro.comer();
+        perro.dormir();
+        perro.mover();
+        perro.jugar();
+        perro.reproducirse();
+
+        System.out.println("");
+
+        perro1.comer();
+        perro1.dormir();
+        perro1.mover();
+        perro1.jugar();
+        perro1.reproducirse();
     }
 }
+
+
+
